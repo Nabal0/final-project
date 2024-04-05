@@ -225,9 +225,14 @@ a {
 .services .service {
     background: #ffe6ad;
     display: grid;
-    width: calc((100% / 3) - 30px);
     height: 500px;
     grid-template-rows: 55% 45%;
+}
+.services .service__1, .services .service__2 {
+    width: 45%;
+}
+.services .service__3, .services .service__4, .services .service__5 {
+    width: 30%;
 }
 .services .service .image > img {
     width: 100%;
@@ -472,7 +477,7 @@ footer p a {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 660px ) {
     .header {
         height: unset;
     }
